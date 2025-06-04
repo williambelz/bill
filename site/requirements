@@ -1,0 +1,133 @@
+✅ CONTENT OUTLINE (Summarized, ready to drop in)
+🔹 index.html
+Headline: “Empowering Everyone: Accessibility in Vocational Rehabilitation”
+
+Sections:
+
+Hero banner with intro
+
+What is Accessibility?
+
+Role of Vocational Rehabilitation
+
+Featured Success Stories (carousel or cards)
+
+Quick Links to Resources
+
+🔹 about.html
+Focus:
+
+History of Vocational Rehabilitation (VR) in the U.S.
+
+Intersection with Accessibility Laws (ADA, Rehab Act Sec. 504/508, WIOA)
+
+Goals of VR Programs (employment, independence, accommodations)
+
+🔹 resources.html
+Types of Resources:
+
+Federal Resources (e.g., RSA, ADA National Network)
+
+State Voc Rehab Agencies (interactive map or dropdown)
+
+Assistive Technology Programs
+
+Legal Aid for Disability Rights
+
+Accessibility Testing Tools (WAVE, AXE, Lighthouse)
+
+🔹 contact.html
+Form Fields:
+
+Name
+
+Email
+
+Message
+
+“How can we assist?” dropdown (e.g., Job Seeker, Employer, Educator)
+
+🔹 glossary.md
+A plain-language file with terms like:
+
+Accessibility
+
+Reasonable Accommodation
+
+Assistive Technology
+
+Transition Services
+
+IPE (Individualized Plan for Employment)
+
+🔹 legal-framework.md
+Markdown doc covering:
+
+Americans with Disabilities Act (ADA)
+
+Rehabilitation Act (especially Sections 504 & 508)
+
+Workforce Innovation and Opportunity Act (WIOA)
+
+State-specific policies (optional JSON version for interactivity)
+## Accessibility Statement
+
+We are committed to ensuring digital accessibility for individuals with disabilities. We are continuously improving the user experience for everyone and applying the relevant accessibility standards.
+
+**Compliance Status:**  
+This site aims to conform to **WCAG 2.1 Level AA**.
+
+**Known Issues:**  
+[List any known issues if applicable]
+
+**Feedback:**  
+If you encounter any accessibility barriers on our site, please contact us at [email@domain.com].
+🧠 ACCESSIBILITY FEATURES (for Devs to Implement)
+✅ Frontend
+Semantic HTML5 (header, main, nav, etc.)
+
+ARIA roles and landmarks
+
+Logical tab order
+
+Alt text for all images
+
+Color contrast: WCAG 2.1 AA
+
+Focus states visible for all inputs/links
+
+Skip to Content link
+
+✅ Backend/Metadata
+Proper heading hierarchy (H1 → H2 → H3…)
+
+Descriptive page titles and meta descriptions
+
+Sitemap.xml and robots.txt
+
+Accessible form inputs with labels
+
+🛠️ scripts/accessibility.js (Core UX Enhancements)
+Include:
+
+Keyboard navigation enhancements
+
+Alert role notifications
+
+High contrast toggle
+
+Text resize functionality
+    [
+  {
+    "name": "ADA National Network",
+    "url": "https://adata.org",
+    "description": "Comprehensive ADA information and support"
+  },
+  {
+    "name": "Vocational Rehabilitation Services by State",
+    "url": "https://rsa.ed.gov/about/states",
+    "description": "Locate your state’s VR agency"
+  }
+]
+                       
+
