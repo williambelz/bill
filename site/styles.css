@@ -5,6 +5,37 @@ body {
     padding: 0;
 }
 
+.skip-link {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    background: #003366;
+    color: #fff;
+    padding: 0.5em;
+}
+
+.skip-link:focus {
+    top: 0;
+}
+
+.card-grid {
+    display: flex;
+    gap: 1em;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: #f9f9f9;
+    padding: 1em;
+    border: 1px solid #ddd;
+    flex: 1 1 200px;
+}
+
+.high-contrast body {
+    background-color: #000;
+    color: #fff;
+}
+
 header {
     background-color: #003366;
     color: #fff;

@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>User Experience</title>
-<link rel="stylesheet" href="styles.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>User Experience</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="scripts/accessibility.js" defer></script>
 </head>
 <body>
+  <a class="skip-link" href="#main">Skip to Content</a>
 <header>
   <h1>User Experience Considerations</h1>
   <nav>
@@ -16,10 +18,13 @@
       <li><a href="user-experience.html">User Experience</a></li>
       <li><a href="training.html">Training</a></li>
       <li><a href="policies.html">Policies &amp; Compliance</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="resources.html">Resources</a></li>
+      <li><a href="contact.html">Contact</a></li>
     </ul>
   </nav>
 </header>
-<main>
+<main id="main">
   <h2>Clear Navigation</h2>
   <p>Use semantic HTML elements (such as <code>&lt;nav&gt;</code> and <code>&lt;main&gt;</code>) to ensure screen readers can properly navigate the page. Consistent navigation helps users locate information easily.</p>
 
