@@ -24,6 +24,10 @@ python3 -m http.server --directory site
 
 Then visit `http://localhost:8000` to browse the site locally.
 
+## Editing Lists
+
+All list items (`<li>` elements) include a `line-item` class. This makes them easy to target in web editors. Keep the class when updating page content.
+
 ## Contributing
 
 Feel free to submit pull requests that enhance the content or improve accessibility. Please ensure all pages remain keyboard navigable and provide adequate contrast.

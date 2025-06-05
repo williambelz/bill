@@ -63,3 +63,7 @@ footer {
     text-align: center;
     padding: 1em;
 }
+/* Style for consistent list item editing */
+.line-item {
+    margin: 0.25em 0;
+}
